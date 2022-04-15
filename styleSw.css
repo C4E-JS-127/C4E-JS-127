@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     color: black;
 }
 
-.navbar{
+.navbar {
     display: flex;
     align-items: stretch;
     height: 100px;
@@ -14,7 +14,8 @@
     width: 100%;
     z-index: 1;
 }
-.sub_navbar{
+
+.sub_navbar {
     position: absolute;
     list-style: none;
     text-align: center;
@@ -24,52 +25,56 @@
     top: 0px;
     left: 95px;
 }
-.menu_link2 .sub_navbar{
+
+.menu_link2 .sub_navbar {
     position: absolute;
     left: 220px;
 }
 
-.sub_navbar a{
+.sub_navbar a {
     font-size: 15px;
     text-decoration: none;
 }
-.navbar_ul1 .menu_link:hover .sub_navbar{
-    display: block;
-}
-.navbar_ul1 .menu_link2:hover .sub_navbar{
+
+.navbar_ul1 .menu_link:hover .sub_navbar {
     display: block;
 }
 
-.navbar_ul1 li:hover{
+.navbar_ul1 .menu_link2:hover .sub_navbar {
+    display: block;
+}
+
+.navbar_ul1 li:hover {
     text-decoration: underline;
     color: black;
-    scale: (1,1);
+    scale: (1, 1);
 }
 
-.navbar_ul1{
+.navbar_ul1 {
     display: flex;
-    list-style : none;
+    list-style: none;
     flex-grow: 1;
     justify-content: end;
     text-align: center;
-    padding-left: 0px; 
+    padding-left: 0px;
 }
 
-.navbar_ul2{
+.navbar_ul2 {
     display: flex;
-    list-style : none;
+    list-style: none;
     flex-grow: 1;
     justify-content: end;
     text-align: center;
     padding-right: 30px;
 }
 
-.navbar_home{
+.navbar_home {
     flex-grow: 7;
     text-align: center;
     font-size: 35px;
 }
-.navbar_home a{
+
+.navbar_home a {
     font-size: 35px;
 }
 
@@ -77,14 +82,13 @@
     color: black;
     text-transform: uppercase;
     text-decoration: none;
-    
     display: inline-block;
     padding: 15px 20px;
     position: relative;
     font-size: 17px;
 }
 
-.ah:after {    
+.ah:after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -95,77 +99,89 @@
     background: black;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
-  }
-.ah:hover:after { 
-    width: 100%; 
-    left: 0; 
-  }
+}
 
-.storestl{
+.ah:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.storestl {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     padding-left: 200px;
     gap: 200px;
 }
-.stl{
+
+.stl {
     font-size: 15px;
     color: black;
     padding-top: 30px;
     position: relative;
 }
+
 .name {
     margin-bottom: 20px;
 }
+
 .price {
     margin-bottom: 20px;
 }
-.div_info{
+
+.div_info {
     position: sticky;
     position: -webkit-sticky;
-    top : 100px;
+    top: 100px;
     padding-right: 300px;
     margin-top: 250px;
 }
-.img_store1{
+
+.img_store1 {
     width: 400px;
     height: 500px;
     margin-bottom: 50px;
 }
 
-.img_divB{
+.img_divB {
     display: block;
     margin-left: 50px;
 }
-.select_size{
+
+.select_size {
     border: 1px solid black;
     padding: 5px;
     color: rgb(88, 88, 88);
     margin-top: 10px;
 }
-.button_buy{
+
+.button_buy {
     padding: 10px;
     border: 1px solid black;
     color: rgb(88, 88, 88);
     margin-top: 10px;
 }
-.button_buy:hover{
+
+.button_buy:hover {
     transform: 0.5s;
     background-color: grey;
     color: black;
 }
-.select_sb{
-    display : flex;
-    gap : 30px;
+
+.select_sb {
+    display: flex;
+    gap: 30px;
 }
-.mater{
+
+.mater {
     margin-top: 20px;
 }
 
-.mySlides1{
+.mySlides1 {
     width: 400px;
     height: 554px;
 }
+
 .slideshow-container {
     max-width: 1000px;
     position: relative;
@@ -174,7 +190,9 @@
     width: 400px;
     height: 554px;
 }
-.prev, .next {
+
+.prev,
+.next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -188,13 +206,14 @@
     border-radius: 0 3px 3px 0;
     user-select: none;
 }
-.next{
+
+.next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
-.prev:hover, .next:hover{
+
+.prev:hover,
+.next:hover {
     background-color: #f1f1f1;
     color: black;
 }
-
-
